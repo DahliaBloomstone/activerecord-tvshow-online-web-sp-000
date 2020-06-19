@@ -2,7 +2,7 @@
 #name, network, day, rating columns
 #datatype first 3, rating integer
 
-class CreateShows < ActiveRecord::Migration
+class CreateShows < ActiveRecord::Migration[5.2]
   def change
     create_table :shows do |t|
       t.string :name
