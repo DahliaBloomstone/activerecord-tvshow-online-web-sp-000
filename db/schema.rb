@@ -21,3 +21,6 @@ ActiveRecord::Schema.define(version: 2) do
   end
 
 end
+
+
+#for this to show up, run rake db:migrate
