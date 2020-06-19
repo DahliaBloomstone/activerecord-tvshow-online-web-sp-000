@@ -1,5 +1,6 @@
 #define a show class that inherits from ActiveRecord::Base
 class Show < ActiveRecord::Base
+
 def Show::highest_rating
     Show.maximum("rating")
   end
