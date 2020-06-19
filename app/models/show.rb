@@ -1,7 +1,7 @@
 #define a show class that inherits from ActiveRecord::Base
 class Show < ActiveRecord::Base #has data attributes given to it from a migration file
 
-def Show::highest_rating
+def Show::highest_rating 
     Show.maximum("rating")
   end
 
