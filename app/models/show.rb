@@ -26,3 +26,4 @@ def Show::highest_rating
   def Show::shows_by_alphabetical_order
     Show.order(name: :asc)
   end
+end 
